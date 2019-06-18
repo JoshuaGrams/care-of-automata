@@ -1,0 +1,10 @@
+title: The care and feeding of automata
+email: josh@qualdan.com
+description: An introduction to JavaScript.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
