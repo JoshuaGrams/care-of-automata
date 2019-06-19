@@ -1,10 +1,3 @@
-title: The care and feeding of automata
-email: josh@qualdan.com
+title: The Care and Feeding of Electronic Automata
 description: An introduction to JavaScript.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-cayman
-plugins:
+remote_theme: pages-themes/cayman
