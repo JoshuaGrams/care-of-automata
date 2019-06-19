@@ -14,5 +14,3 @@ mouse over an element it will highlight it on the page (if it's on-screen). You 
 If you double-click on things in the Elements view you can mess with the text. To the right of the HTML pane there will be a pane with more tabs. If you choose the Styles tab it will show the CSS that applies to the current element. By double-clicking here you can mess with the colors and sizes and such. This won't get saved anywhere, but it can be fun to experiment with, and is sometimes a good way to debug your layouts and styling.
 
 Anyway. On to JavaScript. If you choose the Console tab at the top of the Developer Tools pane, you'll get a JavaScript command-line. So if you type `alert("AAaaaaaah!");` and hit enter/return, a dialog box will pop up with your message. If you type `document.body.append("Blah blah blah");` it will add text onto the end of the page. Though if you're on a web page it might show up anywhere, or not at all, since CSS can lay things out in various orders. On Google's home page it usually shows up on the very top left.
-
-For something more interesting, see the [Zdog](sandbox/zdog) demo.
