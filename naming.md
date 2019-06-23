@@ -5,9 +5,14 @@ description: That which we call a rose... yeah right.
 
 Choosing good names is hard. It's an art rather than a science. And good names can make your code much easier to manage.
 
-On the other hand, you can get along with mediocre or even bad names. It will just slow you down a bit. So don't stress about it. And avoid turning the hunt for the perfect name into a form of procrastination (this is really easy to do...ask me how I know).
+On the other hand, you can get along with mediocre or even bad names. It will just slow you down a bit. So don't stress about it. It's all too easy to turn the hunt for the perfect name into a form of procrastination...ask me how I know.
 
 There are some rules of thumb. I'm going to have to do my homework and get back to this section because I know there are a bunch of rules I try to follow, but I seem to have internalized and forgotten most of them.
+
+-----
+
+If you're having trouble finding any name at all, you might be organizing your code wrong.
+
 
 -----
 
@@ -20,6 +25,11 @@ It doesn't matter what conventions you choose. But if you mix up different ones,
 -----
 
 In general, use **nouns** for data, **verbs** for functions.
+
+
+-----
+
+Give booleans positive names, not negative ones. That tends to lead to double-negatives? But even if it doesn't it's often not as easy to read.
 
 
 -----

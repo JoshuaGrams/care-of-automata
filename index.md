@@ -12,12 +12,18 @@ It uses JavaScript [because reasons](why-javascript). But I strongly believe tha
 
 So:
 
-* Computer programming is [learned primarily through &ldquo;failure&rdquo;](learn-through-failure). That does **not** mean you are bad at it: it's the fastest way to get better.
+* Computer programming is [learned primarily through &ldquo;failure&rdquo;](learn-through-failure). This does **not** mean you are bad at it. It's impossible to avoid failure entirely. You should be asking, "how can I get the most out of each failure?"
 
 * [Running JavaScript code](running-javascript).
 
+* [Variables](variables).
+
+* [Simple Data Types](simple-data): numbers, text, true and false.
+
 * [Designing Programs](designing-programs).
 
-* [Variables](variables).
+* [Compound Data Types](compound-data): lists and dictionaries.
+
+* [Control Flow Structures](control-flow).
 
 * [Choosing Names](naming).
