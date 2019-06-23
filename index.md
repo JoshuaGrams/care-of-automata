@@ -20,10 +20,10 @@ So:
 
 * [Simple Data Types](simple-data): numbers, text, true and false.
 
-* [Designing Programs](designing-programs).
-
 * [Compound Data Types](compound-data): lists and dictionaries.
 
 * [Control Flow Structures](control-flow).
+
+* [Designing Programs](designing-programs).
 
 * [Choosing Names](naming).
