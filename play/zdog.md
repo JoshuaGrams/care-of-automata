@@ -60,7 +60,7 @@ As usual, hit F12 or Ctrl-Shift-I to open the developer tools, and go to the Con
 
 Try changing the color or the stroke width of a shape: `purpleCircle.stroke = 30`
 
-If you change the dimensions of a shape, you'll have to call e.g. `orangeSquare.updatePath()` to make your changes visible.
+If you change the dimensions of a shape, you'll have to call e.g. `orangeSquare.updatePath()` to make your changes visible. If you set `width` and `height` on the circle (to make it an ellipse), you can `delete purpleCircle.width` and height to get back to using the `diameter`.
 
 You could also try adding new shapes: see [the documentation](https://zzz.dog/shapes).
 
