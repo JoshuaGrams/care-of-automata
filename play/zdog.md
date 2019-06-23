@@ -62,6 +62,8 @@ Try changing the color or the stroke width of a shape: `purpleCircle.stroke = 30
 
 If you change the dimensions of a shape, you'll have to call e.g. `orangeSquare.updatePath()` to make your changes visible. If you set `width` and `height` on the circle (to make it an ellipse), you can `delete purpleCircle.width` and height to get back to using the `diameter`.
 
+Some of the properties are nested. For instance, you can move the square up or down by setting `orangeSquare.translate.y` to something other than 0.
+
 You could also try adding new shapes: see [the documentation](https://zzz.dog/shapes).
 
 Remove or re-add an existing shape with `illo.removeChild(shape)` or `illo.addChild(shape)`.
