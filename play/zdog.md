@@ -56,6 +56,16 @@ let orangeSquare = new Zdog.Rect({
 
 Drag the illustration to view it from a different angle.
 
+As usual, hit F12 or Ctrl-Shift-I to open the developer tools, and go to the Console tab.
+
+Try changing the color or the stroke width of a shape: `purpleCircle.stroke = 30`
+
+If you change the dimensions of a shape, you'll have to call e.g. `orangeSquare.updatePath()` to make your changes visible.
+
+You could also try adding new shapes: see [the documentation](https://zzz.dog/shapes).
+
+Remove or re-add an existing shape with `illo.removeChild(shape)` or `illo.addChild(shape)`.
+
 The shapes were created with:
 
 ```javascript
@@ -73,13 +83,3 @@ let orangeSquare = new Zdog.Rect({
 	stroke: 12,  color: '#E62',  fill: true,
 });
 ```
-
-As usual, hit F12 or Ctrl-Shift-I to open the developer tools, and go to the Console tab.
-
-Try changing the color or the stroke width of a shape: `purpleCircle.stroke = 30`
-
-If you change the dimensions of a shape, you'll have to call e.g. `orangeSquare.updatePath()` to make your changes visible.
-
-You could also try adding new shapes: see [the documentation](https://zzz.dog/shapes).
-
-Remove or re-add an existing shape with `illo.removeChild(shape)` or `illo.addChild(shape)`.
